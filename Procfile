@@ -1,2 +1,1 @@
-worker: python BOT_heroku.py
-heroku ps:scale web=1
+worker: python3 BOT_heroku.py
