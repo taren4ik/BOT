@@ -6,7 +6,6 @@ pip==20.2.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycparser==2.20
-pyOpenSSL==19.1.0
 pyTelegramBotAPI==3.7.3
 requests==2.7.0
 service-identity==18.1.0
