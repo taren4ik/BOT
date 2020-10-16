@@ -3,10 +3,7 @@ import telebot
 import os
 from telebot import types
 
-
 bot = telebot.TeleBot('os.environ['token']) 
-
-
 @bot.message_handler(content_types=['text'])
 
 def send_text(message):
