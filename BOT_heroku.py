@@ -2,8 +2,8 @@
 import telebot
 import os
 from telebot import types
-
-bot = telebot.TeleBot('os.environ['token']) 
+Token=s.environ['token']
+bot = telebot.TeleBot(Token)
 @bot.message_handler(content_types=['text'])
 
 def send_text(message):
