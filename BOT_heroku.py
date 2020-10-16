@@ -2,7 +2,7 @@
 import telebot
 import os
 from telebot import types
-Token=s.environ['token']
+Token = os.environ['token']
 bot = telebot.TeleBot(Token)
 @bot.message_handler(content_types=['text'])
 
