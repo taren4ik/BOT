@@ -1,9 +1,10 @@
 
 import telebot
+import os
 from telebot import types
 
 
-bot = telebot.TeleBot('814011588:AAERuDGx6NdyC-9TQtU8i26_lhO6lfb-5C8') 
+bot = telebot.TeleBot('os.environ['token']) 
 
 
 @bot.message_handler(content_types=['text'])
