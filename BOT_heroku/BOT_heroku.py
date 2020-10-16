@@ -34,7 +34,7 @@ def send_text(message):
     @bot.callback_query_handler(func=lambda call: True)
     def callback_worker(call):
 
-        # Если подтвержден возраст, то переходим
+        # Если подтвержден возраст, то выподает ссылка
 
         if call.data == "yes_me":
 
